@@ -3,13 +3,17 @@ import Button from "react-bootstrap/Button";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
+import { Image } from "react-bootstrap";
+import logo from "../assets/img/footer-logo.png";
 
 function BasicExample() {
   return (
     <Navbar expand="lg" style={{ backgroundColor: "#110915" }}>
       <Container>
         <Navbar.Brand>
-          <Link to="/" className="Navbar-title text-white"></Link>
+          <Link to="/" className="Navbar-title">
+            <Image src={logo} />
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

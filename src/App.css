@@ -78,3 +78,17 @@
   font-size: 18px;
   font-weight: 400;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 2rem;
+  color: white;
+}
+.copyright {
+  font-size: 15px;
+  font-weight: 200;
+  color: grey;
+}

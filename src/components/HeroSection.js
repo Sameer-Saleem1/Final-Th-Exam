@@ -1,6 +1,8 @@
 import React from "react";
 import mockup from "../assets/img/Mockup.png";
 import { Image } from "react-bootstrap";
+import play from "../assets/img/Play 02.png";
+import { Link } from "react-router-dom";
 
 export default function HeroSection() {
   return (
@@ -14,6 +16,9 @@ export default function HeroSection() {
           <p>
             Unlock the blockchain potential to create <br /> Web3 Applications
           </p>
+          <Link to={"/"}>
+            <Image src={play} style={{ marginTop: "1rem" }} />
+          </Link>
         </div>
       </div>
       <div
