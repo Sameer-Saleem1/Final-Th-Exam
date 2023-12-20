@@ -59,3 +59,22 @@
 .start-btn:hover {
   transform: scale(1.1);
 }
+
+.future {
+  background-color: #22212e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.future h2 {
+  font-size: 40px;
+}
+
+.future h4 {
+  font-size: 18px;
+  font-weight: 400;
+}
