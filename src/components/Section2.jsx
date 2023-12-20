@@ -19,7 +19,7 @@ function Section2() {
             <Button className="start-btn">START BUILDING</Button>
           </Col>
           <Col sm={12} md={12} lg={6}>
-            <Image src={start} width={"480px"} />
+            <Image src={start} className="start" />
           </Col>
         </Row>
       </Container>

@@ -31,7 +31,7 @@ function MyVerticallyCenteredModal(props) {
 export default function HeroSection(props) {
   const [modalShow, setModalShow] = React.useState(false);
   return (
-    <div div style={{ backgroundColor: "#5a3f75" }}>
+    <div className="hero-bg">
       <div className="herosection">
         <div>
           <h1>
@@ -59,7 +59,7 @@ export default function HeroSection(props) {
           justifyContent: "center",
         }}
       >
-        <Image src={mockup} width={"900px"} />
+        <Image src={mockup} className="mockup" />
       </div>
     </div>
   );

@@ -8,12 +8,12 @@ import twitter from "../assets/img/twitter.png";
 
 export default function Footer() {
   return (
-    <div style={{ backgroundColor: " #062e3c" }}>
+    <div className="footer-bg">
       <div>
         <h1 className="footer">
           <div>
             <Image src={footerlogo} width={"60px"} />
-            <div style={{ display: "flex" }}>
+            <div className="inner-footer">
               <Link className="Navbar-element " to="/HeroSection">
                 <h4>Web3Makr</h4>
               </Link>
@@ -34,17 +34,12 @@ export default function Footer() {
         </h1>
       </div>
       <div>
-        <Container>
+        <Container className="inner-footer">
           <Row>
-            <Col lg={6} sm={6} md={6} style={{ textAlign: "left" }}>
+            <Col lg={6} sm={6} md={6} style={{ textAlign: "center" }}>
               <p className="copyright">Copyright 2022 © Web3makr</p>
             </Col>
-            <Col
-              lg={6}
-              sm={6}
-              md={6}
-              style={{ paddingLeft: "25rem", textAlign: "right" }}
-            >
+            <Col lg={6} sm={6} md={6} className="footer-social">
               <div style={{ display: "flex" }}>
                 <Link to={"/"}>
                   <Image
