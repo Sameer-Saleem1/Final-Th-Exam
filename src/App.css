@@ -1,0 +1,14 @@
+.Navbar-title {
+  text-decoration: none;
+  color: black;
+}
+
+.Navbar-element {
+  text-decoration: none !important;
+  color: black;
+  margin-left: 2rem;
+}
+
+.Navbar-element h4 {
+  font-weight: 400;
+}
