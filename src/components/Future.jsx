@@ -19,67 +19,93 @@ function Future() {
         <div className="mt-5">
           <Container>
             <Row>
-              <Col sm={12} md={12} lg={4}>
-                <h3 style={{ marginBottom: "3rem" }}>Multichain</h3>
-                <h3 style={{ marginBottom: "3rem" }}>Dashboard</h3>
-                <h3>Tool</h3>
+              <Col sm={12} md={12} lg={4} style={{ textAlign: "left" }}>
+                <h3 style={{ marginBottom: "5rem", fontSize: "2.5rem" }}>
+                  Multichain
+                </h3>
+                <h3 style={{ marginBottom: "5rem", fontSize: "2.5rem" }}>
+                  Dashboard
+                </h3>
+                <h3 style={{ marginBottom: "5rem", fontSize: "2.5rem" }}>
+                  Tool
+                </h3>
               </Col>
               <Col sm={12} md={12} lg={8}>
-                <div className="images">
-                  <Image
-                    src={fox}
-                    width={"90px"}
-                    roundedCircle
-                    style={{
-                      backgroundColor: "white",
-                      padding: "3px",
-                      margin: "1rem",
-                    }}
-                  />
-                  <Image
-                    src={man}
-                    width={"90px"}
-                    roundedCircle
-                    style={{ backgroundColor: "white", margin: "1rem" }}
-                  />
-                  <Image
-                    src={moralis}
-                    width={"90px"}
-                    roundedCircle
-                    style={{
-                      backgroundColor: "white",
-                      padding: "3px",
-                      margin: "1rem",
-                    }}
-                  />
+                <div className="images" style={{ display: "flex" }}>
+                  <div>
+                    <Image
+                      src={fox}
+                      width={"120px"}
+                      roundedCircle
+                      style={{
+                        backgroundColor: "white",
+                        padding: "3px",
+                        marginRight: "3rem",
+                      }}
+                    />
+                    <p>Wallets Support</p>
+                  </div>
+                  <div>
+                    <Image
+                      src={man}
+                      width={"120px"}
+                      roundedCircle
+                      style={{ backgroundColor: "white", marginRight: "3rem" }}
+                    />
+                    <p>NFT Search</p>
+                  </div>
                 </div>
-                <div className="images">
-                  <Image
-                    src={solidity}
-                    width={"90px"}
-                    roundedCircle
-                    style={{
-                      backgroundColor: "white",
-                      padding: "3px",
-                      margin: "1rem",
-                    }}
-                  />{" "}
-                  <Image
-                    src={ether}
-                    width={"90px"}
-                    roundedCircle
-                    style={{
-                      backgroundColor: "white",
-                      padding: "3px",
-                      margin: "1rem",
-                    }}
-                  />
-                  <Image
-                    src={hardhat}
-                    width={"90px"}
-                    roundedCircle
-                    style={{ backgroundColor: "white", padding: "3px" }}
-                  />
+                <div style={{ display: "flex" }}>
+                  <div>
+                    <Image
+                      src={moralis}
+                      width={"120px"}
+                      roundedCircle
+                      style={{
+                        backgroundColor: "white",
+                        padding: "3px",
+                        marginRight: "3rem",
+                      }}
+                    />
+                    <p>Moralis Integration</p>
+                  </div>
+                  <div>
+                    <Image
+                      src={solidity}
+                      width={"120px"}
+                      roundedCircle
+                      style={{
+                        backgroundColor: "white",
+                        padding: "3px",
+                        marginRight: "3rem",
+                      }}
+                    />
+                    <p>Solidity</p>
+                  </div>
+                </div>
+                <div className="images" style={{ display: "flex" }}>
+                  <div>
+                    <Image
+                      src={ether}
+                      width={"120px"}
+                      roundedCircle
+                      style={{
+                        backgroundColor: "white",
+                        padding: "3px",
+                        marginRight: "3rem",
+                      }}
+                    />
+                    <p>Ether.js</p>
+                  </div>
+                  <div>
+                    <Image
+                      src={hardhat}
+                      width={"120px"}
+                      roundedCircle
+                      style={{ backgroundColor: "white", padding: "3px" }}
+                    />
+                    <p>Hardhat</p>
+                  </div>
                 </div>
               </Col>
             </Row>
