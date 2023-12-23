@@ -20,7 +20,7 @@ function MyVerticallyCenteredModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <video src={video} autoPlay="true"></video>
+        <video src={video} className="video" autoPlay="true"></video>
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>

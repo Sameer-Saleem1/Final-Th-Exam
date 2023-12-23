@@ -33,15 +33,7 @@ function BasicExample() {
             <Link className="Navbar-element " to="/Contact">
               <h4>Contact us</h4>
             </Link>
-            <Button
-              variant="outline-info"
-              style={{
-                width: "150px",
-                height: "40px",
-                marginLeft: "2rem",
-                marginTop: ".5rem",
-              }}
-            >
+            <Button variant="outline-info" className="Navbar-btn">
               Start for free
             </Button>{" "}
           </Nav>

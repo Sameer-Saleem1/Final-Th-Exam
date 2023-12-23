@@ -34,13 +34,13 @@ export default function Footer() {
         </h1>
       </div>
       <div>
-        <Container className="inner-footer">
+        <Container className="lower-inner-footer">
           <Row>
             <Col lg={6} sm={6} md={6} style={{ textAlign: "center" }}>
               <p className="copyright">Copyright 2022 © Web3makr</p>
             </Col>
             <Col lg={6} sm={6} md={6} className="footer-social">
-              <div style={{ display: "flex" }}>
+              <div>
                 <Link to={"/"}>
                   <Image
                     src={instagram}
